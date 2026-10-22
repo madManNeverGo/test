@@ -17,6 +17,11 @@
   .contact-page * {
     box-sizing: border-box;
   }
+
+    .contact-page h1,
+    .contact-page h2 {
+      color: var(--contact-text);
+    }
   
   .contact-hero {
     max-width: 760px;
@@ -194,7 +199,8 @@
   
   .contact-field input::placeholder,
   .contact-field textarea::placeholder {
-    color: #707a8c;
+    color: #a3adbd;
+    opacity: 1;
   }
   
   .contact-field input:focus,
